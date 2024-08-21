@@ -17,6 +17,7 @@ namespace BulkUploadSQL
             string table = "customersprocess";
             string FilePath = @"C:\Users\haris\source\repos\BulkUploadSQL\BulkUploadSQL\records_1000000.out";
 
+
             DataTable custinfo = new DataTable();
             custinfo.Columns.Add("Acronym",typeof(string));
             custinfo.Columns.Add("FirstName", typeof(string));
