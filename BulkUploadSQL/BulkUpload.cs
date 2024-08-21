@@ -50,7 +50,7 @@ namespace BulkUploadSQL
             { 
                 Console.WriteLine(ex.Message);  
             }
-
+// This is to test the comment #haresh
             return false;
         }
         public void BulkInsert(DataTable custinfo, string connectionst, string table)
