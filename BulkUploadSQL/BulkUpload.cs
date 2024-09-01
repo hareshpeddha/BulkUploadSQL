@@ -69,7 +69,6 @@ namespace BulkUploadSQL
                     Console.WriteLine(ex.Message);
                 }
 
-
             }
         }
     }
