@@ -13,7 +13,7 @@ namespace BulkUploadSQL
     {
         public bool BulkUploaddata() 
         {
-            string connectionString = "Data Source=DESKTOP-9KGSMC0\\SQLEXPRESS;Initial Catalog=EmployeesDb;Integrated Security=True;TrustServerCertificate=True";
+            string connectionString = "Data Source=localhost\\MSSQLSERVER01;Initial Catalog=employeesDB;Integrated Security=True;TrustServerCertificate=True";
             string table = "customersprocess";
             string FilePath = @"C:\Users\haris\source\repos\BulkUploadSQL\BulkUploadSQL\records_1000000.out";
 
